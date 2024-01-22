@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
+
+    <!-- Tailwind and daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/46d58feac5.js" crossorigin="anonymous"></script>
+
+    <style>
+        .eb-garamond{
+            font-family: 'EB Garamond', serif;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <header class="flex justify-between items-center lg:flex-row flex-col px-4 pt-2 lg:px-24 lg:pt-16 space-y-5">
+        <div>
+            <img src="images/logo2.png" alt="">
+        </div>
+        <div class="space-x-6 text-[#707070] font-normal flex flex-col lg:flex-row">
+            <a href="">Home </a>
+            <a href="">Services <i class="fa-solid fa-angle-right"></i></a>
+            <a href="">Cases <i class="fa-solid fa-angle-right"></i></a>
+            <a href="">Blogs <i class="fa-solid fa-angle-right"></i></a>
+            <a href="">About Us <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+
+        <button class="px-8 py-4 bg-[#B68C5A] text-white rounded-lg ">Free Consultation</button>
+    </header>
+
+    <main>
+        <section class="px-2 pt-2 lg:px-24 lg:pt-16">
+            <div class="hero min-h-screen rounded-lg" style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 text-7xl font-extrabold text=[#FFF]">We Provide Effective <br> Legal Solutions</h1>
+                    <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+                    <input class="rounded-xl lg:w-[500px] w-[250px] h-[64px] px-4 border-none " type="text" placeholder="Search your services">
+                    <button class="bg-[#B68C5A] w-[150px] h-[64px] rounded-lg mt-2">Search</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+        
+    </main>
+
+    <footer>
+
+    </footer>
+
 </body>
+
 </html>
